@@ -4,6 +4,7 @@
 
 <div class="container">
 
+    @include('sweetalert::alert')
 
     <table class="table">
         <thead>

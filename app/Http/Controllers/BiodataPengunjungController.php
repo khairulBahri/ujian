@@ -16,10 +16,11 @@ class BiodataPengunjungController extends Controller
      */
     public function index()
     {
-        $biodata = BiodataPengunjung::all();
+        $biodata = BiodataPengunjung::orderByDesc("id")->get();
 
         return view('biodata-pengunjung.index', compact(['biodata']));
     }
+
 
     /**
      * Show the form for creating a new resource.
@@ -75,6 +76,9 @@ class BiodataPengunjungController extends Controller
         $biodata = BiodataPengunjung::find($id);
         $biodata->check_in = true;
         $biodata->save();
+
+        Alert::success('Congrats', 'Berhasil Check In ');
+
         return redirect('/biodata-pengunjung');
     }
 
