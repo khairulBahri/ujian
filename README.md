@@ -1,5 +1,5 @@
 
-<p>kalau boleh jujur ini projek pertama saya menggunakan laravel,jadi sambil develop sambil lihat-lihat tutorial,jadi ada beberapa fitur yang belum terselesaikan,mohon abg atau kakak memakluminya, biasanya saya bekerja menggunakan YII2 Framework</p>
+<p style="color:yellow;">kalau boleh jujur ini projek pertama saya menggunakan laravel,jadi sambil develop sambil lihat-lihat tutorial,jadi ada beberapa fitur yang belum terselesaikan,mohon abg atau kakak memakluminya, biasanya saya bekerja menggunakan YII2 Framework</p>
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
